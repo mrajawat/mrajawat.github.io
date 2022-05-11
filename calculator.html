@@ -110,7 +110,7 @@ display:inline-block;
 <button onclick="AT_add('')"></button>
 
 <button onclick="exe()">=</button>
-<button onclick="cancel()"></button>
+<button onclick="cancel()">CE</button>
 <button onclick="cls()">c</button>
 
 </div>
@@ -122,7 +122,9 @@ function AT_add(v){
 }
 function cls()
 {
-	val.value=eval(val.value);}
+	val.value="";
+	
+}
 	function exe()
 	{
 		val.value=eval(val.value);
